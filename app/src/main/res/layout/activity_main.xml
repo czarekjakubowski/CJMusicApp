@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.android.cjmusicapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/choose_category"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorPrimaryLight"/>
+
+    <Button
+        android:id="@+id/study"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/study"
+        style="@style/ButtonTheme"/>
+
+    <Button
+        android:id="@+id/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/workout"
+        style="@style/ButtonTheme"/>
+
+    <Button
+        android:id="@+id/dream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dream"
+        style="@style/ButtonTheme"/>
+
+    <Button
+        android:id="@+id/havefun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/havefun"
+        style="@style/ButtonTheme"/>
+
+</LinearLayout>

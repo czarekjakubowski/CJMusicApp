@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CJ Music App</string>
+    <string name="choose_category">Right now i want to:</string>
+    <string name="chosen_tag">Chosen music tag:</string>
+    <string name="music_tag_displayed">""</string>
+    <string name="study">Study</string>
+    <string name="workout">Workout</string>
+    <string name="dream">Dream</string>
+    <string name="havefun">Have fun</string>
+    <string name="song_title_1">Song 1</string>
+    <string name="playlist_description">Buttons in main activity sent an intent with extras. PlaylistEditor.java caught it and,
+        depending on users choice, should connect to proper music stream and display a list of songs.
+    Clicking on album icon takes the user to Song Info activity. Pressing play button launches the media player.
+    Required libraries: gson, retrofit, converter-gson and picasso ; Required permission in manifest: android.permission.INTERNET ; Used API: api.soundcloud.com ; </string>
+    <string name="album_description">Displays small picture of an album representing pressed song, song title, name of the album, genre, composer info, etc. 
+        Required libraries and API: the same as in playlist editor.</string>
+    <string name="player_description">Displays media player with standard control buttons, volume control slider, loop and shuffle checkboxes, optional "Screen always on" and "Play in background" checkboxes.
+        Required libraries and API: the same as in playlist editor. Manifest declariations: android.permission.WAKE_LOCK,
+        Classes: PowerManager (PARTIAL_WAKE_LOCK), WifiManager (WifiLock), AudioManager (STREAM_MUSIC)</string>
+</resources>
